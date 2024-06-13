@@ -17,6 +17,9 @@ print(resp.status_code)
 ###  Output when status_code is not equal to 200 ####
 # AssertionError: Unexpected status code: 404
 
+
+
+
 ######   Question 2. Send /post request with json body and validate response contains relevant data ########
 
 import requests
@@ -55,6 +58,10 @@ print(response.text)
 ###  Output when status_code is not equal to 200 ####
 # AssertionError: Unexpected status code: 404
 
+
+
+
+
 ######   Question 3. Validate request with delayed response ########
 
 import requests 
@@ -75,6 +82,10 @@ assert resp.status_code == 200, "Unexpected status code: " + str(resp.status_cod
 
 ###  Output when status_code is not equal to 200 ####
 # AssertionError: Unexpected status code: 404
+
+
+
+
 
 # ######   Question 4. Write any negative scenario ########
 #  Example1 ## Negative test case for invalid URL   
@@ -102,6 +113,9 @@ print(r)
 # # HTTP Error
 # # 404 Client Error: NOT FOUND for url: https://httpbin.org/wrong_url
 # # <Response [404]>
+
+
+
 
 
 # ############### Question 5. Simulate Unauthorized Access   #####
